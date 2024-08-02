@@ -1,0 +1,40 @@
+* {
+    background-color: rgb(115, 0, 255);
+}
+
+h1 {
+    color: aqua;
+}
+
+.quiz-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.question {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.answer {
+    margin: 5px;
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.correct {
+    background-color: lightgreen;
+}
+
+.incorrect {
+    background-color: lightcoral;
+}
+
+#score {
+    font-weight: bold;
+    margin-top: 10px;
+}
